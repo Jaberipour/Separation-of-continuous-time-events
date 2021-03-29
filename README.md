@@ -1,8 +1,12 @@
 # Separation-of-continuous-time-events
 Input
-A list of dictionaries, where each dictionary has two keys: 'start_time' and 'end_time'. The corresponding values for 'start_time' and 'end_time' are non-negative integers.
+
+A list of dictionaries, where each dictionary has two keys: 'start_time' and 'end_time'.
+The corresponding values for 'start_time' and 'end_time' are non-negative integers.
+
 
 Sample:
+
 
 sample_input = [
     {
@@ -18,7 +22,11 @@ sample_input = [
         'end_time': 100
     }
 ]
+
+
 Output
+
+
 The output must have the same format as the input (list of dictionaries), but with an additional key:value pair in each dictionary.
 The key will be named 'level' and the value will be the integer level assigned to that event.
 
